@@ -9,7 +9,7 @@ public class DummyBot {
         } else if ("Bye.".equals(question)) {
             rsl = "See you later.";
         } else {
-            rsl = " I don't know. Please, ask another question.";
+            rsl = "I don't know. Please, ask another question.";
         }
         return rsl;
     }
