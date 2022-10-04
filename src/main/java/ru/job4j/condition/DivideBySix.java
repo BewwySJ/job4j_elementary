@@ -20,5 +20,7 @@ public class DivideBySix {
         System.out.println("Остаток от деления чисел 18 и 7 равен: " + rsl);
         rsl = 18 % 6;
         System.out.println("Остаток от деления чисел 18 и 6 равен: " + rsl);
+        rsl = 22 % 4;
+        System.out.println(" Остаток от деления чисел 22 и 4 равен: " + rsl);
     }
 }
