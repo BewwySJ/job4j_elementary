@@ -11,7 +11,7 @@ public class ChessBoardTest {
         int x2 = 1;
         int y2 = 2;
         int result = ChessBoard.way(x1, y1, x2, y2);
-        int expected = 5;
+        int expected = 0;
         assertThat(result).isEqualTo(expected);
     }
 
@@ -22,7 +22,7 @@ public class ChessBoardTest {
         int x2 = 0;
         int y2 = 7;
         int result = ChessBoard.way(x1, y1, x2, y2);
-        int expected = 7;
+        int expected = 0;
         assertThat(result).isEqualTo(expected);
     }
 
